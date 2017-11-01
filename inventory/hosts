@@ -1,0 +1,9 @@
+[masters]
+13.126.90.53 ansible_user=ubuntu ansible_private_key_file=/home/ratul/developments/devops/keyfile/ec2-core-app.pem
+
+#ansible_private_key_file=/home/ratul/developments/devops/keyfile/docker-key.pem
+
+[workers]
+#ansible_user=ubuntu
+35.154.160.9 ansible_user=ubuntu ansible_private_key_file=/home/ratul/developments/devops/keyfile/ec2-core-app.pem
+13.126.72.193 ansible_user=ubuntu ansible_private_key_file=/home/ratul/developments/devops/keyfile/ec2-core-app.pem
